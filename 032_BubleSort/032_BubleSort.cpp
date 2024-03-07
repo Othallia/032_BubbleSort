@@ -66,3 +66,11 @@ void display() {
 	cout << endl;
 }
 
+int main() {
+	input(); // call the input function to get user input
+	BubbleSortArray(); // call the selection sort function
+	display(); // display the sortde array
+	system("pause");
+
+	return 0;
+}
